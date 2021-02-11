@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import {BrowserRouter as Router} from 'react-router-dom'
 import axios from 'axios';
 
 import SavedList from './Movies/SavedList';
@@ -33,4 +34,4 @@ export default function App () {
       <div>Replace this Div with your Routes</div>
     </div>
   );
-}
+} // close APP
